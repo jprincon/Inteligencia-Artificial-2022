@@ -4,12 +4,17 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.Buttons, Vcl.ExtCtrls;
 
 type
   TFTestIA = class(TForm)
-    PageControl1: TPageControl;
-    TabSheet1: TTabSheet;
+    pcMenuPrincipal: TPageControl;
+    TabArchivo: TTabSheet;
+    Panel1: TPanel;
+    Panel2: TPanel;
+    sbNuevo: TSpeedButton;
+    sbAbrir: TSpeedButton;
+    sbGuardar: TSpeedButton;
   private
     { Private declarations }
   public
