@@ -9,3 +9,4 @@ También contiene un Backend-Server para gestionar los datos desde un servidor y
 ### 8 de Abril de 2022
 
 1. Se creo el proyecto
+2. Se creo el formulario de pruebas y se inicio con la pestaña del menú
